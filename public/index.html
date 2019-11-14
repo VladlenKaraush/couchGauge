@@ -7,29 +7,36 @@
     <link rel="stylesheet" href="build/tailwind.css" />
     <title>Document</title>
   </head>
-  <body class="bg-gray-100 ">
-    <div class="px-8 py-12">
-      <img class="h-10" src="img/logo.svg" alt="home" />
-      <img
-        src="img/beach-work.jpg"
-        class="mt-6 rounded-lg shadow-xl"
-        alt="woman working"
-        srcset=""
-      />
-      <h1 class="mt-6 text-2xl font-bold text-gray-800 leading-tight">
-        You can work from anywhere.
-        <span class="text-indigo-500">Take advantage of it.</span>
-      </h1>
-      <p class="mt-2 text-gray-600 ">
-        Workation helps you find work-friendly rentals in beautiful locations so
-        yo can enjoy some nice weather even when you're not on vacation.
-      </p>
-      <div class="mt-4">
-        <a
-          class="inline-block bg-indigo-500 px-5 py-3 text-white rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm"
-          href="#"
-          >Book your escape</a
+  <body class="bg-gray-100 max-w-md mx-auto sm:max-w-xl">
+    <div class="flex">
+      <div class="px-8 py-12">
+        <img class="h-10" src="img/logo.svg" alt="home" />
+        <img
+          src="img/beach-work.jpg"
+          class="mt-6 sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center rounded-lg shadow-xl lg:hidden"
+          alt="woman working"
+          srcset=""
+        />
+        <h1
+          class="mt-6 text-2xl font-bold text-gray-800 leading-tight sm:text-4xl sm:mt-8"
         >
+          You can work from anywhere.
+          <span class="text-indigo-500">Take advantage of it.</span>
+        </h1>
+        <p class="mt-2 sm:mt-4 text-gray-600 sm:text-xl">
+          Workation helps you find work-friendly rentals in beautiful locations
+          so yo can enjoy some nice weather even when you're not on vacation.
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a
+            class="inline-block bg-indigo-500 px-5 py-3 text-white rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm sm:text-base"
+            href="#"
+            >Book your escape</a
+          >
+        </div>
+      </div>
+      <div class="hidden lg:block">
+        <img src="img/beach-work.jpg" class="" alt="woman working" srcset="" />
       </div>
     </div>
   </body>
